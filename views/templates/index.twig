@@ -1,0 +1,6 @@
+{% extends layout is defined ? layout+".twig" : "layout.twig" %}
+
+{% block title %} {{ title }} {% endblock %}
+{% block body %} 
+<h1>{{ title }}</h1>
+{% endblock %}
